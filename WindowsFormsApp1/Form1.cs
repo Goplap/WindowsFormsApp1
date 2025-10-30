@@ -84,5 +84,10 @@ namespace WindowsFormsApp1
             FormQueries queryForm = new FormQueries();
             queryForm.Show();
         }
+
+        private void редакторТаблицьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

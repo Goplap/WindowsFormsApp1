@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -202,6 +203,11 @@ namespace WindowsFormsApp1
             LoadData();
             MessageBox.Show("Дані оновлено", "Інформація",
                             MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

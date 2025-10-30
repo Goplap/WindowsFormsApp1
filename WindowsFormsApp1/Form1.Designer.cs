@@ -412,6 +412,7 @@
             this.редакторТаблицьToolStripMenuItem.Name = "редакторТаблицьToolStripMenuItem";
             this.редакторТаблицьToolStripMenuItem.Size = new System.Drawing.Size(123, 20);
             this.редакторТаблицьToolStripMenuItem.Text = "Робота з табицями";
+            this.редакторТаблицьToolStripMenuItem.Click += new System.EventHandler(this.редакторТаблицьToolStripMenuItem_Click);
             // 
             // типиВантажуToolStripMenuItem
             // 
