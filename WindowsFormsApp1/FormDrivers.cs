@@ -197,7 +197,7 @@ namespace WindowsFormsApp1
         }
 
         // Оновлення даних з бази
-        private void buttonRefresh_Click(object sender, EventArgs e)
+        private void buttonRefresh_Click(object sender, EventArgs e) 
         {
             LoadData();
             MessageBox.Show("Дані оновлено", "Інформація",
