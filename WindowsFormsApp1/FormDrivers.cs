@@ -9,7 +9,7 @@ namespace WindowsFormsApp1
     public partial class FormDrivers : Form
     {
         // Рядок підключення
-        string connectionString = "Data Source=localhost;Initial Catalog=TransportLogistic;Integrated Security=True;Trust Server Certificate=True";
+        string connectionString = "Data Source=localhost;Initial Catalog=TransportLogistic;Integrated Security=True;TrustServerCertificate=True";
         DataTable dataTable;
         SqlDataAdapter adapter;
 

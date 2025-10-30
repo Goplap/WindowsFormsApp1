@@ -8,7 +8,7 @@ namespace WindowsFormsApp1
     public partial class FormQueries : Form
     {
         // Рядок підключення
-        string connectionString = "Data Source=localhost;Initial Catalog=TransportLogistic;Integrated Security=True;Trust Server Certificate=True";
+        string connectionString = "Data Source=localhost;Initial Catalog=TransportLogistic;Integrated Security=True;TrustServerCertificate=True";
 
         public FormQueries()
         {
